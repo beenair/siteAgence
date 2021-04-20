@@ -1,6 +1,7 @@
 import React from 'react';
 
-// Importation des icones
+
+// Import des icones
 import { BiSupport } from 'react-icons/bi';
 import { GrVmMaintenance, GrCode, GrDeploy } from 'react-icons/gr';
 import { AiFillDatabase } from 'react-icons/ai';
@@ -28,7 +29,7 @@ export default function Services() {
           <div className="text-sm lg:text-xl text-white">Web</div>
         </div>
 
-        {/* Helpdesk */}
+        {/* Support */}
         <div className="rounded-full shadow-2xl h-32 w-32 lg:h-40 lg:w-40 bg-yellow-500 flex flex-col gap-1 lg:gap-3 items-center justify-center hover:bg-yellow-400 transform hover:scale-110 duration-300">
           <div className="text-3xl lg:text-5xl"><BiSupport/></div>
           <div className="text-sm lg:text-xl text-white">Support</div>

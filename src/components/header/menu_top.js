@@ -30,7 +30,7 @@ export default function MenuTop() {
 
 
         {/* MENU */}
-        <div className="menu hidden flex flex-grow flex-col mt-16 py-2 items-center lg:mt-0 lg:py-0 lg:flex lg:flex-row lg:flex-1 lg:space-x-2 lg:justify-end">
+        <div className="menu hidden flex flex-grow flex-col mt-16 py-2 items-center font-semibold lg:mt-0 lg:py-0 lg:flex lg:flex-row lg:flex-1 lg:space-x-1 lg:justify-end">
           <Link to="" className="p-2 h-full flex items-center cursor-pointer hover:bg-yellow-500">Accueil</Link>
           <Link to="" className="p-2 h-full flex items-center cursor-pointer hover:bg-yellow-500">Services</Link>
           <Link to="" className="p-2 h-full flex items-center cursor-pointer hover:bg-yellow-500">Contact</Link>
@@ -45,8 +45,8 @@ export default function MenuTop() {
           </button>
         </div>
 
-
       </div>
+      
 
     </section>
 
