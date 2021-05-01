@@ -11,11 +11,11 @@ export default function Services() {
 
   return(
 
-    <section className="h-auto m-auto flex flex-col bg-gray-200">
+    <section className="h-auto m-auto pt-10 flex flex-col bg-gray-200">
 
 
       {/* Titre */}
-      <div className="h-24 mt-10 flex items-center justify-center text-4xl text-gray-800 font-bold">
+      <div className="h-24 flex items-center justify-center text-4xl text-gray-800 font-bold">
         SERVICES
       </div>
 

@@ -5,6 +5,7 @@ import MenuTop from './header/menu_top'
 import Header from './header/header'
 import Services from './services/services'
 import Contact from './contact/contact'
+import Footer from './footer/footer'
 
 
 
@@ -18,6 +19,7 @@ export default function Landing() {
       <Header/>
       <Services/>
       <Contact/>
+      <Footer/>
 
     </section>
 
