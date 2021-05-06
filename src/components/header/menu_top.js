@@ -21,7 +21,7 @@ export default function MenuTop() {
     <section className="bg-gray-800 w-full h-auto text-white">
 
 
-      <div className="m-auto h-auto flex flex-row px-3 lg:w-5/6">
+      <div className="m-auto h-auto max-w-screen-xl flex flex-row px-3 lg:w-5/6">
 
         {/* LOGO */}
         <div className="flex flex-1 h-16 items-center font-bold text-2xl">
@@ -33,7 +33,7 @@ export default function MenuTop() {
         <div className="menu hidden flex flex-grow flex-col mt-16 py-2 items-center font-semibold lg:mt-0 lg:py-0 lg:flex lg:flex-row lg:flex-1 lg:space-x-1 lg:justify-end">
           <Link to="" className="p-2 h-full flex items-center cursor-pointer hover:bg-yellow-500">Accueil</Link>
           <Link to="" className="p-2 h-full flex items-center cursor-pointer hover:bg-yellow-500">Services</Link>
-          <Link to="" className="p-2 h-full flex items-center cursor-pointer hover:bg-yellow-500">Contact</Link>
+          <Link to="contact" smooth={true} duration={1500} className="p-2 h-full flex items-center cursor-pointer hover:bg-yellow-500">Contact</Link>
           <Link to="" className="p-2 h-full flex items-center cursor-pointer hover:bg-yellow-500">Espace clients</Link>
         </div>
 
